@@ -1,14 +1,16 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin: 0; padding: 0;}
 a{text-decoration: none; color: #fff;}
 li{list-style: none;}
+
 header {
-    
+    width: 100%;
     background-color: navy;
     display: flex;
     justify-content: center;
 }
 nav {
     width: 1200px;
+    
     padding: 8px 12px;
     display: flex;
     align-items: center;
@@ -35,6 +37,6 @@ nav {
     display: flex;
 }
 
-.nav_sns li {
-     padding: 8px 12px;
+.nav_sns li{
+    padding: 8px 12px;
 }
