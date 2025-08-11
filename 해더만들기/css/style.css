@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: #fff;}
+li{list-style: none;}
+header {
+    
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    width: 1200px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    font-size: 24px;
+}
+
+.nav_logo i {
+    color: orange;
+}
+
+.nav_menu {
+    display: flex;
+}
+
+.nav_menu li {
+    padding: 8px 12px;
+}
+
+.nav_sns {
+    display: flex;
+}
+
+.nav_sns li {
+     padding: 8px 12px;
+}
