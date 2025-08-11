@@ -1,0 +1,65 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color:#000}
+li{list-style: none;}
+
+ul{
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    /* flex 방향 기본은 row 세로는 colum */
+    flex-wrap:wrap;
+    /* justify-content: center; */
+    /* justify-content:space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+  
+}
+
+.item1 {
+    height: 100px;
+    background-color: lightblue;
+}
+
+.item2 {
+    background-color: lightcoral;
+}
+
+.item3 {
+    background-color: lightcyan;
+}
+
+.item4 {
+    background-color: lightgoldenrodyellow;
+}
+
+.item5 {
+    background-color: lightgray;
+}
+
+.item6 {
+    background-color: lightgreen;
+}
+
+.item7 {
+    background-color: lightpink;
+}
+
+.item8 {
+    background-color: lightsalmon;
+}
+
+.item9 {
+    background-color: lightskyblue;
+}
+
+.item10 {
+    background-color: lightslategray;
+}

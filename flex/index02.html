@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 500px;
+        }
+
+        .top {
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        .mid {
+             display: flex;
+        }
+
+        .mid div {
+            width: calc(100% / 3);
+            height: 100px;
+           
+        }
+
+        .mid div:nth-of-type(1){
+            background-color: blue;
+        }
+
+        .mid div:nth-of-type(2){
+            background-color: rgb(255, 0, 72);
+        }
+
+        .mid div:nth-of-type(3){
+            background-color: rgb(8, 237, 0);
+        }
+
+        .bottom {
+            display: flex;
+        }
+
+        .bottom div {
+            width: calc(100% / 2);
+            height: 100px;
+        }
+
+        .bottom div:nth-of-type(1){
+            background-color: aquamarine;
+        }
+
+        .bottom div:nth-of-type(2){
+            background-color: rgb(238, 250, 10);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+
+        </div>
+        <div class="mid">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="bottom">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
